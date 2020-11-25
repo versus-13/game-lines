@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="ballColor">
+        <flag name="red" value="1" />
+        <flag name="green" value="2" />
+        <flag name="blue" value="3" />
+        <flag name="yellow" value="4" />
+    </attr>
+
+    <attr name="cellState">
+        <flag name="empty" value="0" />
+        <flag name="small" value="1" />
+        <flag name="normal" value="2" />
+        <flag name="jumping" value="3" />
+    </attr>
+
+    <declare-styleable name="Cell">
+        <attr name="ballColor" />
+        <attr name="cellState" />
+    </declare-styleable>
+</resources>

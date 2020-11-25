@@ -1,0 +1,70 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.versus.games.lines.ui.main.MainViewModel" />
+    </data>
+
+    <merge>
+
+        <TableRow
+            android:layout_weight="1"
+            android:weightSum="9">
+
+            <com.versus.games.lines.views.Cell
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:ballColor="red"
+                app:cellState="normal"/>
+
+            <com.versus.games.lines.views.Cell
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:ballColor="green"
+                app:cellState="normal"/>
+
+            <com.versus.games.lines.views.Cell
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:ballColor="green"
+                app:cellState="small"/>
+
+            <com.versus.games.lines.views.Cell
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <com.versus.games.lines.views.Cell
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <com.versus.games.lines.views.Cell
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <com.versus.games.lines.views.Cell
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <com.versus.games.lines.views.Cell
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <com.versus.games.lines.views.Cell
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </TableRow>
+    </merge>
+</layout>
